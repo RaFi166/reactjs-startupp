@@ -1,23 +1,37 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Functional from './components/Functional';
+import ClassBased from './components/ClassBased';
+import ArrowFunc from './components/ArrowFunc';
+import State from './components/State';
+import SetState from './components/SetState';
+import Condition1 from './components/Condition1';
+import Dom1 from './components/Dom1';
+import Form from './components/Form';
+import FormTwo from './components/FormTwo';
+import MultipleForm from './components/MultipleForm';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    {/* <Functional></Functional>
+    <ClassBased></ClassBased> */}
+    {/* <ArrowFunc /> */}
+    {/* <State /> */}
+   {/* <SetState />
+   <Condition1 /> */}
+   {/* <Dom1 /> */}
+   {/* <Form /> */}
+   {/* <FormTwo /> */}
+
+   <MultipleForm />
+
+   
+
+
     </div>
   );
 }
