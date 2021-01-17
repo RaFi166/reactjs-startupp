@@ -11,6 +11,8 @@ import Dom1 from './components/Dom1';
 import Form from './components/Form';
 import FormTwo from './components/FormTwo';
 import MultipleForm from './components/MultipleForm';
+import List from './components/List';
+import JsonArray from './components/JsonArray'
 
 
 function App() {
@@ -26,8 +28,9 @@ function App() {
    {/* <Dom1 /> */}
    {/* <Form /> */}
    {/* <FormTwo /> */}
-
-   <MultipleForm />
+   {/* <MultipleForm /> */}
+   {/* <List /> */}
+   <JsonArray />
 
    
 
