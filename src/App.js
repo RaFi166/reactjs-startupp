@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './components/profile/profileStyle.css';
 import Functional from './components/Functional';
 import ClassBased from './components/ClassBased';
 import ArrowFunc from './components/ArrowFunc';
@@ -12,7 +12,8 @@ import Form from './components/Form';
 import FormTwo from './components/FormTwo';
 import MultipleForm from './components/MultipleForm';
 import List from './components/List';
-import JsonArray from './components/JsonArray'
+import JsonArray from './components/JsonArray';
+import Profile from './components/profile/Profile';
 
 
 function App() {
@@ -30,7 +31,9 @@ function App() {
    {/* <FormTwo /> */}
    {/* <MultipleForm /> */}
    {/* <List /> */}
-   <JsonArray />
+   {/* <JsonArray /> */}
+
+   <Profile/>
 
    
 
